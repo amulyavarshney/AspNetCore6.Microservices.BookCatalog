@@ -1,5 +1,7 @@
 ﻿namespace BookQuery.Service.ViewModels
 {
+    /* The MessageViewModel class is a class that contains a Command property, a BookId property, a
+    Title property, a Description property, and an Author property */
     public class MessageViewModel
     {
         public Command Command { get; set; }

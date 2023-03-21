@@ -1,5 +1,6 @@
 ﻿namespace BookCommand.Service.ViewModels
 {
+    /* This is a class that is used to pass data between the service and the client. */
     public class MessageViewModel
     {
         public Command Command { get; set; }

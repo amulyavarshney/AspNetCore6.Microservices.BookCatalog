@@ -2,6 +2,7 @@
 
 namespace BookQuery.Service.Models
 {
+    /* The Book class has four properties: Id, Title, Description, and Author */
     public class Book
     {
         public int Id { get; set; }

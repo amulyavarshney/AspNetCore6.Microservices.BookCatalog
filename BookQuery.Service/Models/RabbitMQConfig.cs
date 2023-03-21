@@ -1,5 +1,6 @@
 ﻿namespace BookQuery.Service.Models
 {
+    /* It's a class that holds the configuration for RabbitMQ */
     public class RabbitMQConfig
     {
         public string UserName { get; set; }

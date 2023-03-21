@@ -2,6 +2,7 @@
 
 namespace BookQuery.Service.Services
 {
+    /* Defining the interface for the BookService class. */
     public interface IBookService
     {
         Task<IEnumerable<Book>> GetAllAsync();
